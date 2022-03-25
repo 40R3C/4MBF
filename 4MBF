@@ -1,2 +1,148 @@
-import base64
-exec(base64.b64decode(b'IyEvdXNyL2Jpbi9weXRob24zCiMgLSotIGNvZGluZzogdXRmLTggLSotCgppbXBvcnQgcmVxdWVzdHMsYnM0LGpzb24sb3Msc3lzLHJhbmRvbSxkYXRldGltZSx0aW1lLHJlCnRyeToKCWltcG9ydCByaWNoCmV4Y2VwdCBJbXBvcnRFcnJvcjoKCW9zLnN5c3RlbSgncGlwIGluc3RhbGwgcmljaCcpCgl0aW1lLnNsZWVwKDEpCgl0cnk6CgkJaW1wb3J0IHJpY2gKCWV4Y2VwdCBJbXBvcnRFcnJvcjoKCQlleGl0KCdUaWRhayBEYXBhdCBNZW5naW5zdGFsbCBNb2R1bGUgcmljaCwgQ29iYSBJbnN0YWxsIE1hbnVhbCAocGlwIGluc3RhbGwgcmljaCknKQpmcm9tIHJpY2gudGFibGUgaW1wb3J0IFRhYmxlIGFzIG1lCmZyb20gcmljaC5jb25zb2xlIGltcG9ydCBDb25zb2xlIGFzIHNvbApmcm9tIGJzNCBpbXBvcnQgQmVhdXRpZnVsU291cCBhcyBzb3AKZnJvbSBjb25jdXJyZW50LmZ1dHVyZXMgaW1wb3J0IFRocmVhZFBvb2xFeGVjdXRvciBhcyB0cmVkCmZyb20gcmljaC5jb25zb2xlIGltcG9ydCBHcm91cCBhcyBncApmcm9tIHJpY2gucGFuZWwgaW1wb3J0IFBhbmVsIGFzIG5lbApmcm9tIHJpY2ggaW1wb3J0IHByaW50IGFzIGNldGFrCmZyb20gcmljaC5tYXJrZG93biBpbXBvcnQgTWFya2Rvd24gYXMgbWFyawpmcm9tIHJpY2guY29sdW1ucyBpbXBvcnQgQ29sdW1ucyBhcyBjb2wKIyBVQSBMSVNUCnRyeTp1Z2VuID0gb3BlbigndXNlci50eHQnLCdyJykucmVhZCgpLnNwbGl0bGluZXMoKQpleGNlcHQ6dWdlbiA9IFsnTW96aWxsYS81LjAgKExpbnV4OyBVOyBBbmRyb2lkIDIuMy40OyBwdC1wdDsgU29ueUVyaWNzc29uTFQxOGEgQnVpbGQvNC4wLjEuQS4wLjI2NikgQXBwbGVXZWJLaXQvNTMzLjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzQuMCBNb2JpbGUgU2FmYXJpLzUzMy4xJywnTW96aWxsYS81LjAgKExpbnV4OyBVOyBBbmRyb2lkIDQuMi4xOyBydS1ydTsgOTkzMGkgQnVpbGQvSk9QNDBEKSBBcHBsZVdlYktpdC81MzQuMzAgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzQuMCBNb2JpbGUgU2FmYXJpLzUzNC4zMCcsJ01vemlsbGEvNS4wIChMaW51eDsgVTsgQW5kcm9pZCAyLjMuNDsgcnUtcnU7IE1JRCBCdWlsZC9HUkoyMikgQXBwbGVXZWJLaXQvNTMzLjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzQuMCBNb2JpbGUgU2FmYXJpLzUzMy4xJywnTW96aWxsYS81LjAgKExpbnV4OyBVOyBBbmRyb2lkIDQuMzsgZW4tdXM7IEFTVVNfVDAwSiBCdWlsZC9KU1MxNVEpIEFwcGxlV2ViS2l0LzUzNC4zMCAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIE1vYmlsZSBTYWZhcmkvNTM0LjMwJywnTW96aWxsYS81LjAgKExpbnV4OyBVOyBBbmRyb2lkIDQuMi4yOyBydS1ydTsgRmx5IElRNDQwNCBCdWlsZC9KRFEzOSkgQXBwbGVXZWJLaXQvNTM0LjMwIChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgTW9iaWxlIFNhZmFyaS81MzQuMzAgWWFuZGV4U2VhcmNoLzcuMTYnXQp0cnk6dWdlbjIgPSBvcGVuKCd1c2VyMi50eHQnLCdyJykucmVhZCgpLnNwbGl0bGluZXMoKQpleGNlcHQ6dWdlbjIgPSBbJ01vemlsbGEvNS4wIChMaW51eDsgVTsgQW5kcm9pZCAyLjMuNDsgcHQtcHQ7IFNvbnlFcmljc3NvbkxUMThhIEJ1aWxkLzQuMC4xLkEuMC4yNjYpIEFwcGxlV2ViS2l0LzUzMy4xIChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgTW9iaWxlIFNhZmFyaS81MzMuMScsJ01vemlsbGEvNS4wIChMaW51eDsgVTsgQW5kcm9pZCA0LjIuMTsgcnUtcnU7IDk5MzBpIEJ1aWxkL0pPUDQwRCkgQXBwbGVXZWJLaXQvNTM0LjMwIChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgTW9iaWxlIFNhZmFyaS81MzQuMzAnLCdNb3ppbGxhLzUuMCAoTGludXg7IFU7IEFuZHJvaWQgMi4zLjQ7IHJ1LXJ1OyBNSUQgQnVpbGQvR1JKMjIpIEFwcGxlV2ViS2l0LzUzMy4xIChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgTW9iaWxlIFNhZmFyaS81MzMuMScsJ01vemlsbGEvNS4wIChMaW51eDsgVTsgQW5kcm9pZCA0LjM7IGVuLXVzOyBBU1VTX1QwMEogQnVpbGQvSlNTMTVRKSBBcHBsZVdlYktpdC81MzQuMzAgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzQuMCBNb2JpbGUgU2FmYXJpLzUzNC4zMCcsJ01vemlsbGEvNS4wIChMaW51eDsgVTsgQW5kcm9pZCA0LjIuMjsgcnUtcnU7IEZseSBJUTQ0MDQgQnVpbGQvSkRRMzkpIEFwcGxlV2ViS2l0LzUzNC4zMCAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIE1vYmlsZSBTYWZhcmkvNTM0LjMwIFlhbmRleFNlYXJjaC83LjE2J10KCiMgSU5ESUNBVElPTgppZCxpZDIsbG9vcCxvayxjcCxha3VuLG9wcmVrLG1ldGhvZCxsaXNlbnNpa3UsdGFwbGlrYXNpLHRva2Vua3UsdWlkLGxpc2Vuc2lrdW5pPSBbXSxbXSwwLDAsMCxbXSxbXSxbXSxbXSxbXSxbXSxbXSxbXQoKIyBDT0xPUlMKeCA9ICdcMzNbbScgIyBERUZBVUxUCmsgPSAnXDAzM1s5M20nICMgS1VOSU5HICsKaCA9ICdceDFiWzE7OTJtJyAjIEhJSkFVICsKaGggPSAnXDAzM1szMm0nICMgSElKQVUgLQp1ID0gJ1wwMzNbOTVtJyAjIFVOR1UKa2sgPSAnXDAzM1szM20nICMgS1VOSU5HIC0KYiA9ICdcMzNbMTs5Nm0nICMgQklSVSAtCnAgPSAnXHgxYlswOzM0bScgIyBCSVJVICsKIyBDb252ZXJ0ZXIgQnVsYW4KZGljID0geycxJzonSmFudWFyaScsJzInOidGZWJydWFyaScsJzMnOidNYXJldCcsJzQnOidBcHJpbCcsJzUnOidNZWknLCc2JzonSnVuaScsJzcnOidKdWxpJywnOCc6J0FndXN0dXMnLCc5JzonU2VwdGVtYmVyJywnMTAnOidPa3RvYmVyJywnMTEnOidOb3ZlbWJlcicsJzEyJzonRGVzZW1iZXInfQpkaWMyID0geycwMSc6J0phbnVhcmknLCcwMic6J0ZlYnJ1YXJpJywnMDMnOidNYXJldCcsJzA0JzonQXByaWwnLCcwNSc6J01laScsJzA2JzonSnVuaScsJzA3JzonSnVsaScsJzA4JzonQWd1c3R1cycsJzA5JzonU2VwdGVtYmVyJywnMTAnOidPa3RvYmVyJywnMTEnOidOb3ZlbWJlcicsJzEyJzonRGVzZW1iZXInfQp0Z2wgPSBkYXRldGltZS5kYXRldGltZS5ub3coKS5kYXkKYmxuID0gZGljWyhzdHIoZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkubW9udGgpKV0KdGhuID0gZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkueWVhcgpva2MgPSAnT0stJytzdHIodGdsKSsnLScrc3RyKGJsbikrJy0nK3N0cih0aG4pKycudHh0JwpjcGMgPSAnQ1AtJytzdHIodGdsKSsnLScrc3RyKGJsbikrJy0nK3N0cih0aG4pKycudHh0JwojIENMRUFSCmRlZiBjbGVhcigpOgoJb3Muc3lzdGVtKCdjbGVhcicpCiMgQkFDSwpkZWYgYmFjaygpOgoJbG9naW4oKQojIEJBTk5FUgpkZWYgYmFubmVyKCk6CgljbGVhcigpCgl3ZWwgPSAnIyBXRUxDT01FIFRPIEZBQ0VCT09LIDRNQkYgVE9PTFMgMjAyMicKCXdlbDIgPSBtYXJrKHdlbCwgc3R5bGU9J2N5YW4nKQoJc29sKCkucHJpbnQod2VsMikKCWF1PSdBVVRIT1IgICAgOiAgNDBSM0NcbkdJVEhVQiAgICA6ICBodHRwczovL2dpdGh1Yi5jb20vNDBSM0NcbldIQVRTQVBQICA6ICAwODc4NzI3Mzk4OTknCglwZW5nZW1iYW5nMT1uZWwoYXUsc3R5bGU9ImN5YW4iKQoJY2V0YWsobmVsKHBlbmdlbWJhbmcxLCB0aXRsZT0nSU5GT1JNQVNJIFBFTkdFTUJBTkcnKSkKCXdlbCA9ICcjIFNpbGFoa2FuIEJlbGkgTGlzZW5zaSBEdWx1IFVudHVrIE1lbGFuanV0a2FuJwoJd2VsMiA9IG1hcmsod2VsLCBzdHlsZT0nY3lhbicpCglzb2woKS5wcmludCh3ZWwyKQoJYWE9aW5wdXQoJ1vigKJdIEJlbGkgTGlzZW5zaSAgeSAvIHQgOiAnKQoJaWYgYWEgaW4gWyd5JywnWSddOgoJCW9zLnN5c3RlbSgneGRnLW9wZW4gaHR0cHM6Ly93YS5tZS82Mjg3ODcyNzM5ODk5JykKCWVsc2U6CgkJZXhpdCgpCgkJCgkKYmFubmVyKCkKCgo='))
+import requests,bs4,json,os,sys,random,datetime,time,re
+try:
+	import rich
+except ImportError:
+	os.system('pip install rich')
+	time.sleep(1)
+	try:
+		import rich
+	except ImportError:
+		exit('Tidak Dapat Menginstall Module rich, Coba Install Manual (pip install rich)')
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as nel
+from rich import print as cetak
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+# UA LIST
+try:ugen = open('user.txt','r').readlines()
+except:ugen = ['Mozilla/5.0 (Linux; U; Android 2.3.4; pt-pt; SonyEricssonLT18a Build/4.0.1.A.0.266) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1','Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; 9930i Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30','Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; MID Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1','Mozilla/5.0 (Linux; U; Android 4.3; en-us; ASUS_T00J Build/JSS15Q) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30','Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Fly IQ4404 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 YandexSearch/7.16']
+
+# INDICATION
+id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
+
+# COLORS
+x = '\3[m' # DEFAULT
+k = '\33[93m' # KUNING +
+h = '\1b[1;92m' # HIJAU +
+hh = '\33[32m' # HIJAU -
+u = '\33[95m' # UNGU
+kk = '\33[33m' # KUNING -
+b = '\3[1;96m' # BIRU -
+p = '\1b[0;34m' # BIRU +
+# Converter Bulan
+dic = {'1':'Januari','2':'Februari','3':'Maret','4':'April','5':'Mei','6':'Juni','7':'Juli','8':'Agustus','9':'September','10':'Oktober','11':'November','12':'Desember'}
+dic2 = {'01':'Januari','02':'Februari','03':'Maret','04':'April','05':'Mei','06':'Juni','07':'Juli','08':'Agustus','09':'September','10':'Oktober','11':'November','12':'Desember'}
+tgl = datetime.datetime.now().day
+bln = dic[(str(datetime.datetime.now().month))]
+thn = datetime.datetime.now().year
+okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+# CLEAR
+def clear():
+	os.system('clear')
+# BACK
+def back():
+	login()
+# BANNER
+def banner():
+	clear()
+	wel = '# WELCOME TO FACEBOOK 4MBF TOOLS 2022'
+	wel2 = mark(wel, style='cyan')
+	sol().print(wel2)
+	au='AUTHOR    :  40R3C\GITHUB    :  https://github.com/sahrilekiram/4MBF\WHATSAPP  :  085271870945'
+	pengembang1=nel(au,style="cyan")
+	cetak(nel(pengembang1, title='INFORMASI PENGEMBANG'))
+
+		
+
+
+# VALIDASI TOKEN
+def login():
+	if "sukses" in lisensiku:
+		try:
+			token = open('.token.txt','r').read()
+			tokenku.append(token)
+			try:
+				sy = requests.get('https://graph.facebook.com/me?access_token='+tokenku[0])
+				sy2 = json.loads(sy.text)['name']
+				sy3 = json.loads(sy.text)['id']
+				sy4 = json.loads(sy.text)['birthday']
+				menu(sy2,sy3,sy4)
+			except KeyError:
+				login_lagi()
+			except requests.exceptions.ConnectionError:
+				banner()
+				li = '# KONEKSI INTERNET BERMASALAH, PERIKSA & COBA LAGI'
+				lo = mark(li, style='red')
+				sol().print(lo, style='cyan')
+				exit()
+		except IOError:
+			login_lagi()
+	else:lisensi()
+
+# LOGIN
+def login_lagi():
+	banner()
+	sky = '# LOGIN MENGGUNAKAN AKSES TOKEN'
+	sky2 = mark(sky, style='green')
+	sol().print(sky2, style='cyan')
+	panda = input(x+'['+p+'f'+x+'] Token : ')
+	akun=open('.token.txt','w').write(panda)
+	akun.close()
+	try:
+		tes = requests.get('https://graph.facebook.com/me?access_token='+panda)
+		tes3 = json.loads(tes.text)['id']
+		sue = '# Login Sukses, Tunggu Sebentar!'
+		suu = mark(sue, style='green')
+		sol().print(suu, style='cyan')
+		time.sleep(2.5)
+		login()
+	except KeyError:
+		sue = '# Login Gagal, Periksa Token Anda!'
+		suu = mark(sue, style='red')
+		sol().print(suu, style='cyan')
+		time.sleep(2.5)
+		login_lagi()
+	except requests.exceptions.ConnectionError:
+		li = '# KONEKSI INTERNET BERMASALAH, PERIKSA & COBA LAGI'
+		lo = mark(li, style='red')
+		sol().print(lo, style='cyan')
+		exit()
+  
+  
+#VALIDASI LISENSI
+
+def tlisensi():
+	banner()
+	wel='# L I S E N S I  I N V A L I D'
+	wel2 = mark(wel, style='red')
+	sol().print(wel2)
+	time.sleep(2)
+	lisen=input('[•]Masukan Lisensi : ')
+	open('.lisen.txt','w').write(lisen)
+	lisensi()
+
+
+def lisensi():
+	try:
+		cek=open('.lisen.txt').read()
+		lisensikuni.append(cek)
+	except:
+		tlisensi()
+	ses=requests.Session()
+	res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQ0MzQ1NiIsIlVyd1hjU1oyNEVzVTZFSjZwVnFhdUZEeEZVd2JpVlpKMFlzVVBtRzYiXQ==&ProductId=13939&Key='+lisensikuni[0]).json()
+	status=res['licenseKey']['key']
+	if status ==cek:
+		banner()
+		wel='# SELAMAT LISENSI KAMU VALID '
+		wel2 = mark(wel, style='green')
+		sol().print(wel2)
+		time.sleep(2)
+		lisensiku.append("sukses")
+		login()
+	else:
+		tlisensi()
