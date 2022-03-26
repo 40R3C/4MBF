@@ -53,7 +53,7 @@ def banner():
 	wel = '# WELCOME TO FACEBOOK 4MBF TOOLS 2022'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au='AUTHOR    :  40R3C\GITHUB    :  https://github.com/sahrilekiram/4MBF\WHATSAPP  :  085271870945'
+	au='AUTHOR    :  40R3C\GITHUB    :  https://github.com/sahrilekiram/4MBF\WHATSAPP  :  088271970945
 	pengembang1=nel(au,style="cyan")
 	cetak(nel(pengembang1, title='INFORMASI PENGEMBANG'))
 
