@@ -34,7 +34,7 @@ git clone https://github.com/sahrilekiram/4MBF
 
 cd $HOME
 
-cd 4MBF
+cd 2MBF
 
 python 4MBF.py
 
