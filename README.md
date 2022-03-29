@@ -27,14 +27,14 @@ pip install mechanize
 
 cd $HOME
 
-git clone https://github.com/40R3C/4MBF
+git clone https://github.com/sahrilekiram/4MBF
 
 
 # Cara Menjalankan Scripts
 
 cd $HOME
 
-cd 4MBF
+cd 2MBF
 
 python 4MBF.py
 
